@@ -1,7 +1,13 @@
+import Header from "./components/Header.jsx";
+import User from "./components/User.jsx";
+
 function App() {
   return (
-    <h1>React Investment Calculator</h1>
-  )
+    <>
+      <Header />
+      <User />
+    </>
+  );
 }
 
-export default App
+export default App;
